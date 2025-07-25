@@ -1,0 +1,107 @@
+      *{
+          margin:0rem;
+          padding:0rem;
+          user-select:none;
+          box-sizing:border-box;
+      }
+      
+      img{width:100%;height:100%}
+      a{text-decoration:none}
+      
+      body{background:none;margin:1rem;}
+      
+      section.books-section{
+          width:100%;
+          height:45rem;
+          background:limegreen;
+          display:flex;
+      }
+      
+      section.books-details{
+          width:45%;
+          height:100%;
+      }
+      
+      section.books-list{
+          width:55%;
+          height:100%;
+          padding:1rem;
+      }
+      
+      section.books-first-list,
+      section.books-second-list{
+          width:100%;
+          height:100%;
+          background:none;
+      }
+      
+      section.books-first-list{
+          display:block;
+      }
+
+      section.books-second-list{
+          display:none;
+      }
+      
+
+      div#book-section{
+          width:10rem;
+          height:13rem;
+          background:white;
+          border-radius:1rem;
+      }
+      
+      div#book-section:nth-child(1),
+      div#book-section:nth-child(2){
+          margin-bottom:2rem;
+      }
+      
+      img#book-cover{border-radius:1rem;}
+      
+      div#books-section-title{
+          width:100%;
+          height:60%;
+          background:none;
+          display:flex;
+          justify-content:center;
+          align-items:center;
+      }
+      
+      p#books-section-title{
+          font-size:7rem;
+          font-weight:bold;
+          transform:rotate(270deg);
+      }
+      
+      div#books-list-details{
+          width:100%;
+          height:7rem;
+          background:none;
+          padding:0 1rem 0 1rem;
+      }
+      
+      p#books-details{
+          font-weight:bold;
+          font-size:1.2rem;
+      }
+      
+      section#see-more-books{
+          width:100%;
+          height:10rem;
+          background:none;
+          padding:1rem;
+          display:flex;
+          flex-flow:column;
+          justify-content:space-between;
+          align-items:center;
+      }
+      
+      div#go-back-upbooks,div#see-more-books{
+          width:3rem;
+          height:3rem;
+          border-radius:50%;
+          background:white;
+          border:0.1rem solid black;
+          display:grid;
+          place-items:center;
+      }

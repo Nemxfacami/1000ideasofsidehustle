@@ -1,0 +1,91 @@
+      div#latest-posts-title{
+         width:100%;
+         border-left:0.5rem solid limegreen;
+         height:3rem;
+         display:flex;
+         align-items:center;
+         margin-bottom:3rem;
+         padding:1rem;
+     }
+     
+     p#latest-posts-title{
+         font-size:2rem;
+         font-weight:bold;
+         color:white;
+     }
+     
+     span#bold-word{color:limegreen}
+
+     section.post-section{
+         width:100%;
+         height:30rem;
+         margin-bottom:2rem;
+         background:none;
+         border-bottom:0.5rem solid limegreen;
+     }
+     
+     section#post-header{
+         width:100%;
+         height:15%;
+         background:none;
+         display:flex;
+         align-items:center;
+         justify-content:space-between;
+     }
+     
+     div#time-post-was-posted-container{
+         width:25%;
+         height:40%;
+         background:limegreen;
+         border:0.1rem solid white;
+         border-radius:0.4rem;
+         display:grid;
+         place-items:center;
+     }
+     
+     p#time-post-was-posted{
+         font-weight:bold;
+     }
+     
+     
+     div.post-options{
+         width:40%;
+         height:80%;
+         background:limegreen;
+         border-radius:3rem;
+         display:flex;
+         align-items:center;
+         padding:0.3rem;
+         justify-content:space-between;
+     }
+     
+     div.post-option{
+         width:37%;
+         height:100%;
+         background:#1A1A1A;
+         border-radius:50%;
+     }
+     
+     section.post-image{
+         width:100%;
+         height:75%
+         background:none;
+     }
+     
+     section.post-reading-time-comments{
+         width:100%;
+         height:10%;
+         background:none;
+         display:flex;
+         align-items:center;
+         justify-content:space-between;
+     }
+     
+     p#post-reading-time,p#post-number-of-comments{
+         font-weight:bold;
+         color:white;
+     }
+     
+     div#comment-post{
+         padding:0.3rem;
+     }
