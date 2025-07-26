@@ -1,0 +1,110 @@
+      *{
+          margin:0rem;
+          padding:0rem;
+          user-select:none;
+          box-sizing:border-box;
+      }
+      
+      img{width:100%;height:100%}
+      a{text-decoration:none}
+      
+      body{background:#1A1A1A;margin:0rem;}
+      
+   
+      section.related-posts-list{
+          width:100%;
+          height:22rem;
+          display:flex;
+          background:#1A1A1A;
+          overflow-x:scroll;
+          position:relative;
+      }
+      
+      section.related-post-section{
+          min-width:30rem;
+          height:15rem;
+          background:#1A1A1A;
+          margin-right:3rem;
+          position:relative;
+      }
+      
+      div.related-post-header{
+          width:100%;
+          height:9rem;
+          background:none;
+          display:flex;
+          justify-content:space-between;
+      }
+      
+      div#related-post-date-day-details{
+          width:30%;
+          height:100%;
+          background:none;
+          padding-top:0.5rem;
+      }
+      
+      p#related-posted-title{
+          color:white;
+          font-weight:bold;
+      }
+      
+      p#related-post-date{
+          margin-top:0.3rem;
+          font-size:1.2rem;
+          color:white;
+          font-weight:bold;
+          margin-bottom:0.2rem;
+      }
+      
+      p#related-post-time{
+          color:lightgrey;
+          font-weight:none;
+      }
+      
+      div#related-post-image{
+          width:17rem;
+          height:100%;
+          background:limegreen;
+          border-radius:1rem;
+      }
+      
+      img#related-post-image{border-radius:1rem;opacity:0.4}
+      
+      div.related-post-title{
+          width:75%;
+          height:8rem;
+          background:none;
+          position:absolute;
+          bottom:0%;
+      }
+      
+      p#related-post-title{
+          font-size:1.5rem;
+          color:white;
+          font-weight:bold;
+          font-family:serif;
+      }
+      
+      div.scroll-note{
+         position:absolute;
+         bottom:5%;
+         right:-5%;
+         transform:rotate(270deg);
+      }
+      
+      code#scroll-note{color:white}
+      
+      div#section-title{
+          width:100%;
+          height:3rem;
+          margin-bottom:2rem;
+      }
+      
+      p#section-title{
+          font-size:1.5rem;
+          color:white;
+          font-weight:bold;
+          text-decoration:underline 0.3rem  solid limegreen;
+      }
+
+     a.related-post-title-link{color:white;text-decoration:none}
