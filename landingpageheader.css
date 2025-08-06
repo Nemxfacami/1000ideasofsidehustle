@@ -156,11 +156,13 @@
           height:80%;
           background:none;
           place-items:center;
+          white-space: nowrap;
       }
       
       p#active-category-page-name{
           font-weight:bold;
           font-size:1.2rem;
+          white-space: nowrap;
       }
       
       div#category-page-active{
