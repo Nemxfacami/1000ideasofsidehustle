@@ -16,7 +16,9 @@
           height:22rem;
           display:flex;
           background:#1A1A1A;
-          overflow-x:scroll;
+          overflow: auto; /* or overflow-x/overflow-y as needed */
+          scrollbar-width: none; /* Firefox */
+          -ms-overflow-style: none; 
           position:relative;
       }
       
