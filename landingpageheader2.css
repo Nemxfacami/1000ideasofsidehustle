@@ -107,7 +107,9 @@
           background:none;
           display:flex;
           align-items:center;
-          overflow:scroll;
+          overflow:auto;
+          scrollbar-width: none; /* Firefox */
+          -ms-overflow-style: none;  /* IE 10+ */
           border-bottom:0.5rem solid black;
       }
       
@@ -136,7 +138,9 @@
           height:10%;
           background:none;
           display:flex;
-          overflow:scroll;
+          overflow:auto;
+          scrollbar-width: none; /* Firefox */
+          -ms-overflow-style: none;  /* IE 10+ */
       }
       
       section#category-page-section{
